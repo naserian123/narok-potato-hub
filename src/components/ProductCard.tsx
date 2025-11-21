@@ -1,6 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { ShoppingCart } from "lucide-react";
 
 interface ProductCardProps {
   name: string;
@@ -22,12 +20,8 @@ const ProductCard = ({ name, description, price, image }: ProductCardProps) => {
       <CardContent className="p-6">
         <h3 className="font-heading font-semibold text-xl mb-2 text-foreground">{name}</h3>
         <p className="text-muted-foreground text-sm mb-4">{description}</p>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center">
           <span className="text-2xl font-bold text-secondary">{price}</span>
-          <Button size="sm" className="bg-secondary hover:bg-secondary/90">
-            <ShoppingCart className="w-4 h-4 mr-2" />
-            Order Now
-          </Button>
         </div>
       </CardContent>
     </Card>
