@@ -13,32 +13,32 @@ const Products = () => {
   const products = [
     {
       name: "Premium White Potatoes",
-      description: "Large, versatile white potatoes perfect for mashing, baking, or frying. Rich in nutrients and flavor.",
+      description: "Large, smooth-skinned white potatoes with creamy flesh. Perfect for mashing, baking, or frying.",
       image: realPotatoes5
     },
     {
-      name: "Red Potatoes",
-      description: "Vibrant red-skinned potatoes with creamy texture. Ideal for salads, roasting, and boiling.",
+      name: "Fresh Harvest Potatoes",
+      description: "Medium to large light-skinned potatoes with thin skin. Freshly harvested and full of natural flavor.",
       image: realPotatoes1
     },
     {
-      name: "Baby Potatoes",
-      description: "Small, tender baby potatoes with thin skin. Perfect for roasting whole or adding to stews.",
+      name: "Young Potatoes",
+      description: "Small to medium potatoes with tender, thin skin. Ideal for roasting whole or adding to stews.",
       image: realPotatoes4
     },
     {
       name: "Bulk Premium Mix",
-      description: "A mix of our best potatoes at wholesale pricing. Minimum order 50kg.",
+      description: "Quality white potatoes packed in bulk sacks. Perfect for restaurants and bulk orders. Minimum 50kg.",
       image: realPotatoes3
     },
     {
-      name: "Organic Red Potatoes",
-      description: "Certified organic red potatoes grown without chemicals. Premium quality for health-conscious customers.",
+      name: "Farm Fresh Potatoes",
+      description: "Freshly packed white potatoes straight from our farms. Clean, quality-checked, and ready for delivery.",
       image: realPotatoes2
     },
     {
-      name: "Specialty Baby Potatoes",
-      description: "Hand-selected premium baby potatoes. Perfect for gourmet dishes and special occasions.",
+      name: "Select White Potatoes",
+      description: "Hand-selected smooth white potatoes with consistent size. Perfect for any cooking method.",
       image: realPotatoes5
     }
   ];
