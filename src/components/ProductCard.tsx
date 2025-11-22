@@ -19,10 +19,7 @@ const ProductCard = ({ name, description, price, image }: ProductCardProps) => {
       </div>
       <CardContent className="p-6">
         <h3 className="font-heading font-semibold text-xl mb-2 text-foreground">{name}</h3>
-        <p className="text-muted-foreground text-sm mb-4">{description}</p>
-        <div className="flex items-center">
-          <span className="text-2xl font-bold text-secondary">{price}</span>
-        </div>
+        <p className="text-muted-foreground text-sm">{description}</p>
       </CardContent>
     </Card>
   );

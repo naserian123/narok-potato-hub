@@ -23,7 +23,7 @@ const Navbar = () => {
               <span className="text-2xl font-bold text-secondary-foreground">M</span>
             </div>
             <div className="flex flex-col">
-              <span className="font-heading font-bold text-lg leading-tight text-primary">MAO POTATOES</span>
+              <span className="font-heading font-bold text-lg leading-tight text-primary">MAO POTATOES SUPPLIERS</span>
               <span className="text-xs text-muted-foreground">Fresh from Narok</span>
             </div>
           </Link>

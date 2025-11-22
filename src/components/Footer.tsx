@@ -13,7 +13,7 @@ const Footer = () => {
                 <span className="text-xl font-bold text-secondary-foreground">M</span>
               </div>
               <div>
-                <h3 className="font-heading font-bold text-lg">MAO POTATOES</h3>
+                <h3 className="font-heading font-bold text-lg">MAO POTATOES SUPPLIERS</h3>
                 <p className="text-sm text-primary-foreground/80">Fresh from Narok</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/20 mt-8 pt-6 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} MAO Potatoes Dealer. All rights reserved.
+            © {new Date().getFullYear()} MAO Potatoes Suppliers. All rights reserved.
           </p>
         </div>
       </div>
