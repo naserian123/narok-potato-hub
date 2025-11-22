@@ -5,9 +5,9 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import heroImage from "@/assets/hero-potatoes.jpg";
-import productPremium from "@/assets/product-premium.jpg";
-import productRed from "@/assets/product-red.jpg";
-import productBaby from "@/assets/product-baby.jpg";
+import realPotatoes1 from "@/assets/real-potatoes-1.jpg";
+import realPotatoes2 from "@/assets/real-potatoes-2.jpg";
+import realPotatoes5 from "@/assets/real-potatoes-5.jpg";
 
 const Index = () => {
   const features = [
@@ -32,20 +32,17 @@ const Index = () => {
     {
       name: "Premium Potatoes",
       description: "Large, high-quality potatoes perfect for any dish",
-      price: "KES 80/kg",
-      image: productPremium
+      image: realPotatoes5
     },
     {
       name: "Red Potatoes",
       description: "Vibrant red potatoes with rich, earthy flavor",
-      price: "KES 90/kg",
-      image: productRed
+      image: realPotatoes1
     },
     {
       name: "Baby Potatoes",
       description: "Small, tender potatoes ideal for roasting",
-      price: "KES 100/kg",
-      image: productBaby
+      image: realPotatoes2
     }
   ];
 

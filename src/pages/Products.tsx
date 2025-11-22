@@ -3,47 +3,43 @@ import Footer from "@/components/Footer";
 import ProductCard from "@/components/ProductCard";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import productPremium from "@/assets/product-premium.jpg";
-import productRed from "@/assets/product-red.jpg";
-import productBaby from "@/assets/product-baby.jpg";
+import realPotatoes1 from "@/assets/real-potatoes-1.jpg";
+import realPotatoes2 from "@/assets/real-potatoes-2.jpg";
+import realPotatoes3 from "@/assets/real-potatoes-3.jpg";
+import realPotatoes4 from "@/assets/real-potatoes-4.jpg";
+import realPotatoes5 from "@/assets/real-potatoes-5.jpg";
 
 const Products = () => {
   const products = [
     {
       name: "Premium White Potatoes",
       description: "Large, versatile white potatoes perfect for mashing, baking, or frying. Rich in nutrients and flavor.",
-      // price: "KES 80/kg",
-      image: productPremium
+      image: realPotatoes5
     },
     {
       name: "Red Potatoes",
       description: "Vibrant red-skinned potatoes with creamy texture. Ideal for salads, roasting, and boiling.",
-      // price: "KES 90/kg",
-      image: productRed
+      image: realPotatoes1
     },
     {
       name: "Baby Potatoes",
       description: "Small, tender baby potatoes with thin skin. Perfect for roasting whole or adding to stews.",
-      // price: "KES 100/kg",
-      image: productBaby
+      image: realPotatoes4
     },
     {
       name: "Bulk Premium Mix",
       description: "A mix of our best potatoes at wholesale pricing. Minimum order 50kg.",
-      // price: "KES 75/kg",
-      image: productPremium
+      image: realPotatoes3
     },
     {
       name: "Organic Red Potatoes",
       description: "Certified organic red potatoes grown without chemicals. Premium quality for health-conscious customers.",
-      // price: "KES 120/kg",
-      image: productRed
+      image: realPotatoes2
     },
     {
       name: "Specialty Baby Potatoes",
       description: "Hand-selected premium baby potatoes. Perfect for gourmet dishes and special occasions.",
-      // price: "KES 130/kg",
-      image: productBaby
+      image: realPotatoes5
     }
   ];
 
