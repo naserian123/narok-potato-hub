@@ -30,18 +30,18 @@ const Index = () => {
 
   const products = [
     {
-      name: "Premium Potatoes",
-      description: "Large, high-quality potatoes perfect for any dish",
+      name: "Premium White Potatoes",
+      description: "Large, smooth white potatoes with creamy texture. Perfect for any dish.",
       image: realPotatoes5
     },
     {
-      name: "Red Potatoes",
-      description: "Vibrant red potatoes with rich, earthy flavor",
+      name: "Fresh Harvest Potatoes",
+      description: "Freshly dug light-skinned potatoes with rich, natural flavor.",
       image: realPotatoes1
     },
     {
-      name: "Baby Potatoes",
-      description: "Small, tender potatoes ideal for roasting",
+      name: "Farm Fresh Potatoes",
+      description: "Quality white potatoes packed fresh from our Narok farms.",
       image: realPotatoes2
     }
   ];
