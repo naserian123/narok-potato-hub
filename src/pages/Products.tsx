@@ -12,37 +12,37 @@ const Products = () => {
     {
       name: "Premium White Potatoes",
       description: "Large, versatile white potatoes perfect for mashing, baking, or frying. Rich in nutrients and flavor.",
-      price: "KES 80/kg",
+      // price: "KES 80/kg",
       image: productPremium
     },
     {
       name: "Red Potatoes",
       description: "Vibrant red-skinned potatoes with creamy texture. Ideal for salads, roasting, and boiling.",
-      price: "KES 90/kg",
+      // price: "KES 90/kg",
       image: productRed
     },
     {
       name: "Baby Potatoes",
       description: "Small, tender baby potatoes with thin skin. Perfect for roasting whole or adding to stews.",
-      price: "KES 100/kg",
+      // price: "KES 100/kg",
       image: productBaby
     },
     {
       name: "Bulk Premium Mix",
       description: "A mix of our best potatoes at wholesale pricing. Minimum order 50kg.",
-      price: "KES 75/kg",
+      // price: "KES 75/kg",
       image: productPremium
     },
     {
       name: "Organic Red Potatoes",
       description: "Certified organic red potatoes grown without chemicals. Premium quality for health-conscious customers.",
-      price: "KES 120/kg",
+      // price: "KES 120/kg",
       image: productRed
     },
     {
       name: "Specialty Baby Potatoes",
       description: "Hand-selected premium baby potatoes. Perfect for gourmet dishes and special occasions.",
-      price: "KES 130/kg",
+      // price: "KES 130/kg",
       image: productBaby
     }
   ];
